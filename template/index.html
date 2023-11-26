@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallacea</title>
+    <link rel="stylesheet" href="..\static\index.css" />
+    <link rel="icon" href="../images/Tree.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="PanelT">
+      <img src="../images/Tree.png" id="logo" />
+      <div id="search-section">
+        <input
+          type="text"
+          id="search"
+          style="border-radius: 20px; padding: 0rem 1rem"
+        />
+        <img
+          src="../images/magifying_glass.png"
+          id="search-button"
+          style="height: 2.4rem; padding: 0.7rem 0rem; padding-left: 1.5rem"
+        />
+      </div>
+      <div id="account">
+        <img src="../images/profile.png" style="height: 4rem" />
+      </div>
+      <div id="cart">
+        <img src="../images/shopping-cart.png" />
+      </div>
+    </div>
+    <div id="first-info">
+      <div id="prod-pic"></div>
+      <div id="brief-about">
+        <h2 style="font-size: 2.1rem">
+          Lorem ipsum dolor i7 12th Gen, 16GB RAM, RTX 4070 8GB VRAM, 99.9W TGP
+          sit amet, consectetur adipiscing elit.
+        </h2>
+        <img src="../images/rating.png" style="height: 6rem; margin: 0" />
+        <h2 style="text-decoration: line-through; color: red">$1669</h2>
+        <h1 id="price" style="font-size: 3rem">$1269 Only!</h1>
+        <h2 style="font-size: 1.5rem">24% Off!</h2>
+        <ul>
+          <li>
+            Phasellus non metus gravida, <strong>i7 12th Gen</strong> mattis
+            urna tincidunt, congue ipsum.
+          </li>
+          <li>
+            Nam et turpis sed sem <strong>16GB</strong> luctus ullamcorper sed
+            nec enim.
+          </li>
+          <li>
+            Fusce a erat non <strong>RTX 4070 8GB</strong> ipsum consequat
+            <strong>99.9W TGP</strong> efficitur ac nec diam.
+          </li>
+          <li>
+            Donec ut massa vitae <strong>1TB +512 SSD</strong> massa molestie
+            consequat.
+          </li>
+          <li>Nulla tincidunt mauris ac posuere fringilla.</li>
+          <li>
+            Vivamus placerat orci ac nunc ultrices, a ullamcorper velit
+            facilisis.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="in-the-box">
+      <h2 style="font-size: 2.1rem">
+        What's in the box?
+        <hr />
+      </h2>
+      <ul>
+        <p style="font-size: 1.5rem">
+          Laptop, 240W AC Adapter, Laptop bag, User guide, Manuals.
+        </p>
+      </ul>
+    </div>
+    <div id="similar-prods">
+      <h2 style="font-size: 2.1rem">Similar Products</h2>
+      <hr />
+      <div id="prods-sim">
+        <div id="attributes">
+          <div
+            name="empty"
+            style="background-color: var(--primary-color)"
+          ></div>
+          <div id="name">Name</div>
+          <div id="cpu">Central Processor (CPU)</div>
+          <div id="ram">RAM</div>
+          <div id="storage">Storage</div>
+          <div id="gpu">Graphic Processor (GPU)</div>
+          <div id="price">Price</div>
+        </div>
+        <div class="prod" style="margin-left: 2rem">
+          <img src="../images/laptop1.jpg" style="height: 12rem" />
+          <p class="name">Sed vitae pellentesque urna, et pellentesque felis</p>
+          <p class="cpu">M2</p>
+          <p class="ram">16GB DDR4 ECC DIMM</p>
+          <p class="storage">512GB HDD</p>
+          <p class="gpu">8 core GPU M2 PRO</p>
+          <p class="price">$1099</p>
+        </div>
+        <div class="prod">
+          <img src="../images/laptop2.jpg" style="height: 12rem" />
+          <p class="name">
+            Vestibulum dignissim mi nec lectus vulputate, vitae vehicula nulla
+            sollicitudin
+          </p>
+          <p class="cpu">i7 9th Gen</p>
+          <p class="ram">16GB DDR4</p>
+          <p class="storage">1TB HDD + 512GB SSD</p>
+          <p class="gpu">RTX 2060 6GB</p>
+          <p class="price">$1199</p>
+        </div>
+        <div class="prod">
+          <img src="../images/laptop3.jpg" style="height: 12rem" />
+          <p class="name">Quisque nec tellus eu dolor facilisis placerat.</p>
+          <p class="cpu">M2 Max</p>
+          <p class="ram">32GB DDR4 ECC DIMM</p>
+          <p class="storage">512GB SSD</p>
+          <p class="gpu">38 core GPU M2 MAX</p>
+          <p class="price">$2199</p>
+        </div>
+      </div>
+    </div>
+    <div id="reviews">
+      <div id="ratings">
+        <img src="../images/rating.png" />
+      </div>
+      <div id="cust-rev">
+        <div class="review"></div>
+      </div>
+    </div>
+    <div id="nav-button">
+      <img src="../images/menu.png" style="height: 4rem" />
+    </div>
+    <div id="menu">
+      <p class="sec" id="top"><a href="#">Top</a></p>
+      <p class="sec" id="in-box"><a href="#in-the-box">In the Box</a></p>
+      <p class="sec" id="sim-prod">
+        <a href="#similar-prods">Similar Products</a>
+      </p>
+      <p class="sec" id="review"><a href="#reviews">Customer reviews</a></p>
+    </div>
+    <script src="../static/index.js"></script>
+  </body>
+</html>

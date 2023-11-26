@@ -1,0 +1,23 @@
+profile pic: <a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by Wahyu Adam - Flaticon</a>
+
+tree: <a href="https://www.flaticon.com/free-icons/jungle" title="jungle icons">Jungle icons created by max.icons - Flaticon</a>
+
+front_laptop: Photo by cocarinne  : https://www.pexels.com/photo/laptop-with-blank-screen-placed-on-table-6446709/
+
+ports_laptop: Photo by Foysal Ahmed: https://www.pexels.com/photo/blurred-image-of-a-laptop-and-input-ports-6053287/
+
+laptop_top: Photo by Karolina Grabowska: https://www.pexels.com/photo/person-using-a-gold-laptop-8003528/
+
+search_lens: <a href="https://www.flaticon.com/free-icons/magnifying-glass" title="magnifying glass icons">Magnifying glass icons created by Muhammad_Usman - Flaticon</a>
+
+rating: <a href="https://www.flaticon.com/free-icons/rate" title="rate icons">Rate icons created by dmitri13 - Flaticon</a>
+
+laptop1: Photo by <a href="https://unsplash.com/@artinbakhan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Artin Bakhan</a> on <a href="https://unsplash.com/photos/macbook-pro-on-black-table-SqLyNHbsLKQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+laptop2: Photo by <a href="https://unsplash.com/@vinayak_125?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Vinayak Sharma</a> on <a href="https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-AWSHg2mK-Ho?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+laptop3: Photo by <a href="https://unsplash.com/@mnzoutfits?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mnz</a> on <a href="https://unsplash.com/photos/macbook-pro-and-sony-ps4-controller-XTvA0eRBaI8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+shopping-cart: <a href="https://www.flaticon.com/free-icons/shopping-cart" title="shopping cart icons">Shopping cart icons created by Roundicons Premium - Flaticon</a>
+
+menu: <a href="https://www.flaticon.com/free-icons/navigation" title="navigation icons">Navigation icons created by Andy Horvath - Flaticon</a>
