@@ -11,6 +11,7 @@ laptop_top: Photo by Karolina Grabowska: https://www.pexels.com/photo/person-usi
 search_lens: <a href="https://www.flaticon.com/free-icons/magnifying-glass" title="magnifying glass icons">Magnifying glass icons created by Muhammad_Usman - Flaticon</a>
 
 rating: <a href="https://www.flaticon.com/free-icons/rate" title="rate icons">Rate icons created by dmitri13 - Flaticon</a>
+5 star rating: <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by dmitri13 - Flaticon</a>
 
 laptop1: Photo by <a href="https://unsplash.com/@artinbakhan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Artin Bakhan</a> on <a href="https://unsplash.com/photos/macbook-pro-on-black-table-SqLyNHbsLKQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
@@ -21,3 +22,16 @@ laptop3: Photo by <a href="https://unsplash.com/@mnzoutfits?utm_content=creditCo
 shopping-cart: <a href="https://www.flaticon.com/free-icons/shopping-cart" title="shopping cart icons">Shopping cart icons created by Roundicons Premium - Flaticon</a>
 
 menu: <a href="https://www.flaticon.com/free-icons/navigation" title="navigation icons">Navigation icons created by Andy Horvath - Flaticon</a>
+
+left: <a href="https://www.flaticon.com/free-icons/back" title="back icons">Back icons created by Arkinasi - Flaticon</a>
+
+right: <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Arkinasi - Flaticon</a>
+
+rev-laptop1: Photo by <a href="https://unsplash.com/@christinhumephoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christin Hume</a> on <a href="https://unsplash.com/photos/person-sitting-front-of-laptop-mfB1B1s4sMc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+rev-laptop2: Photo by <a href="https://unsplash.com/@alesnesetril?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ales Nesetril</a> on <a href="https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+rev-laptop3: Photo by <a href="https://unsplash.com/@windows?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Windows</a> on <a href="https://unsplash.com/photos/black-laptop-computer-on-round-table-on-a-surface-laptop-C6T6vr1sQI0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+rev-laptop4: Photo by <a href="https://unsplash.com/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a> on <a href="https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+ 
