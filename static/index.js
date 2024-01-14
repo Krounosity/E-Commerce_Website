@@ -4,143 +4,145 @@ var cat1 = 0;
 var cat2 = 0;
 var cat3 = 0;
 var cat4 = 0;
-document.querySelector("#nav-button").addEventListener("click", function () {
+$("#nav-button").on("click", function () {
   if (menu_flag == 0) {
-    document.querySelector("#menu").style.display = "block";
-    document.querySelector("#menu").style.width = "12rem";
-    document.querySelector("#menu").style.height = "18rem";
+    $("#menu").css("display", "block");
+    $("#menu").css("width", "12rem");
+    $("#menu").css("height", "18rem");
     menu_flag = 1;
   } else if (menu_flag == 1) {
-    document.querySelector("#menu").style.display = "none";
+    $("#menu").css("display", "none");
     menu_flag = 0;
   }
 });
-document.querySelector("#prod-pic").addEventListener("mouseover", function () {
-  document.querySelector("#prev-button").style.opacity = "21%";
-  document.querySelector("#next-button").style.opacity = "21%";
+$("#prod-pic").on("mouseover", function () {
+  $("#prev-button").css("opacity", "21%");
+  $("#next-button").css("opacity", "21%");
 });
 
-document.querySelector("#prod-pic").addEventListener("mouseout", function () {
-  document.querySelector("#prev-button").style.opacity = "0%";
-  document.querySelector("#next-button").style.opacity = "0%";
+$("#prod-pic").on("mouseout", function () {
+  $("#prev-button").css("opacity", "0%");
+  $("#next-button").css("opacity", "0%");
 });
-document.querySelector("#prev-button").addEventListener("click", function () {
+$("#prev-button").on("click", function () {
   if (pic_flag == 1) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/pexels-foysal-ahmed-6053287.jpg')";
+    $("#prod-pic").css(
+      "background-image",
+      "url('../images/pexels-foysal-ahmed-6053287.jpg')"
+    );
     pic_flag = 3;
   } else if (pic_flag == 2) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/front_laptop.jpg')";
+    $("#prod-pic").css("background-image", "../images/front_laptop.jpg");
     pic_flag = 1;
   } else if (pic_flag == 3) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/pexels-karolina-grabowska-8003528.jpg')";
+    $("#prod-pic").css(
+      "background-image",
+      "url('../images/pexels-karolina-grabowska-8003528.jpg')"
+    );
     pic_flag = 2;
   }
 });
 
-document.querySelector("#next-button").addEventListener("click", function () {
+$("#next-button").on("click", function () {
   if (pic_flag == 1) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/pexels-karolina-grabowska-8003528.jpg')";
+    $("#prod-pic").css(
+      "background-image",
+      "url('../images/pexels-karolina-grabowska-8003528.jpg')"
+    );
     pic_flag = 2;
   } else if (pic_flag == 2) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/pexels-foysal-ahmed-6053287.jpg')";
+    $("#prod-pic").css(
+      "background-image",
+      "url('../images/pexels-foysal-ahmed-6053287.jpg')"
+    );
     pic_flag = 3;
   } else if (pic_flag == 3) {
-    document.querySelector("#prod-pic").style.backgroundImage =
-      "url('../images/front_laptop.jpg')";
+    $("#prod-pic").css("background-image", "url('../images/front_laptop.jpg')");
     pic_flag = 1;
   }
 });
 function pageScroll() {
   window.scrollBy(0, 50);
 }
-document.querySelector("#to-cart").addEventListener("mouseover", function () {
-  document.querySelector("#to-cart").style.backgroundColor = "#ffa647";
+$("#to-cart").on("mouseover", function () {
+  $("#to-cart").css("background-color", "#ffa647");
 });
-document.querySelector("#to-cart").addEventListener("mouseout", function () {
-  document.querySelector("#to-cart").style.backgroundColor = "#fcb467";
+$("#to-cart").on("mouseout", function () {
+  $("#to-cart").css("background-color", "#fcb467");
 });
-document.querySelector("#category1").addEventListener("click", function () {
+$("#category1").on("click", function () {
   if (cat1 == 0) {
-    document.querySelector("#subcat-elect").style.display = "block";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "none";
-    document.querySelector("#subcat-elect").style.width = "10rem";
+    $("#subcat-elect").css("display", "block");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-home").css("display", "none");
+    $("#subcat-games").css("display", "none");
+    $("#subcat-elect").css("width", "10rem");
     cat1 = 1;
   } else if (cat1 == 1) {
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "none";
+    $("#subcat-home").css("display", "none");
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-games").css("display", "none");
     cat1 = 0;
   }
 });
-document.querySelector("#category2").addEventListener("click", function () {
+$("#category2").on("click", function () {
   if (cat2 == 0) {
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "block";
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "none";
-    document.querySelector("#subcat-clothing").style.width = "10rem";
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "block");
+    $("#subcat-home").css("display", "none");
+    $("#subcat-games").css("display", "none");
+    $("#subcat-clothing").css("width", "10rem");
     cat2 = 1;
   } else if (cat2 == 1) {
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "none";
+    $("#subcat-home").css("display", "none");
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-games").css("display", "none");
     cat2 = 0;
   }
 });
-document.querySelector("#category3").addEventListener("click", function () {
+$("#category3").on("click", function () {
   if (cat3 == 0) {
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-home").style.display = "block";
-    document.querySelector("#subcat-games").style.display = "none";
-    document.querySelector("#subcat-home").style.width = "10rem";
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-home").css("display", "block");
+    $("#subcat-games").css("display", "none");
+    $("#subcat-home").css("width", "10rem");
     cat3 = 1;
   } else if (cat3 == 1) {
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "none";
+    $("#subcat-home").css("display", "none");
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-games").css("display", "none");
     cat3 = 0;
   }
 });
-document.querySelector("#category4").addEventListener("click", function () {
+$("#category4").on("click", function () {
   if (cat4 == 0) {
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-home").style.display = "none";
-    document.querySelector("#subcat-games").style.display = "block";
-    document.querySelector("#subcat-games").style.width = "10rem";
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-home").css("display", "none");
+    $("#subcat-games").css("display", "block");
+    $("#subcat-games").css("width", "10rem");
     cat4 = 1;
   } else if (cat4 == 1) {
-    document.querySelector("#subcat-games").style.display = "none";
-    document.querySelector("#subcat-elect").style.display = "none";
-    document.querySelector("#subcat-clothing").style.display = "none";
-    document.querySelector("#subcat-home").style.display = "none";
+    $("#subcat-games").css("display", "none");
+    $("#subcat-elect").css("display", "none");
+    $("#subcat-clothing").css("display", "none");
+    $("#subcat-home").css("display", "none");
     cat4 = 0;
   }
 });
-document.querySelector("#to-buy").addEventListener("mouseover", function () {
-  document.querySelector("#to-buy").style.backgroundColor = "#ffa647";
+$("#to-buy").on("mouseover", function () {
+  $("#to-buy").css("background-color", "#ffa647");
 });
-document.querySelector("#to-buy").addEventListener("mouseout", function () {
-  document.querySelector("#to-buy").style.backgroundColor = "#fcb467";
+$("#to-buy").on("mouseout", function () {
+  $("#to-buy").css("background-color", "#fcb467");
 });
-document
-  .querySelector("#to-wishlist")
-  .addEventListener("mouseover", function () {
-    document.querySelector("#to-wishlist").style.backgroundColor = "#ffa647";
-  });
-document
-  .querySelector("#to-wishlist")
-  .addEventListener("mouseout", function () {
-    document.querySelector("#to-wishlist").style.backgroundColor = "#fcb467";
-  });
+$("#to-wishlist").on("mouseover", function () {
+  $("#to-wishlist").css("background-color", "#ffa647");
+});
+$("#to-wishlist").on("mouseout", function () {
+  $("#to-wishlist").css("background-color", "#fcb467");
+});
